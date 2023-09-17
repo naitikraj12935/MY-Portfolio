@@ -1,0 +1,10 @@
+#Work{
+   
+    height: 10rem;
+    margin-top: 4rem;
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+}

@@ -1,0 +1,44 @@
+.port{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.port>:nth-child(1)
+{
+    font-size: 34px;
+    color: var(--orange);
+}
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(72px);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+}
+.port.Swiper{
+  overflow: visible !important;;
+}
+.port-slider{
+    margin-top:3rem ;
+    margin-left: 10rem;
+    width: 100%;
+    box-shadow: var(--smboxShadow) ;
+    border-radius: 50%;
+}
+.port-slider .swiper-slide{
+   
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.port img{
+    width: 20rem;
+    border-radius: 14px;
+  
+}

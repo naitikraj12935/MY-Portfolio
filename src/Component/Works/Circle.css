@@ -1,0 +1,38 @@
+.Circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.number{
+
+    
+    border-radius: 50%;
+    font-size: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: var(--black);
+    background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
+    
+
+}
+.number>span{
+    font-size: 2rem;
+    margin-left: 0.1rem;
+}
+.Circle>:nth-child(2)
+{
+    margin-top: 1rem;
+    color: var(--black);
+}
+.Circle>:nth-child(3)
+{
+    color: var(--orange);
+}
